@@ -23,7 +23,7 @@ def extract_parameters():
         
         # Define the parameters to extract
         parameter_names = [
-            'start', 'end', 'bbox', 'lat', 'lon', 'platform', 'instrument'
+            'publication', 'end', 'bbox', 'lat', 'lon', 'platform', 'instrument'
         ]
         
         # Extract parameters and store them in a dictionary

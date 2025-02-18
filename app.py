@@ -1,6 +1,6 @@
 import requests
 import certifi
-import xml.etree.ElementTree as ET
+import xml.etree.ElementTree as ET # used to parse and work with XML
 from flask import Flask, jsonify
 
 app = Flask(__name__)
@@ -19,7 +19,7 @@ def extract_parameters():
         root = ET.fromstring(response.content)
         
         # Print the XML content for debugging
-        print(ET.tostring(root, encoding='utf8').decode('utf8'))
+        print(ET.tostring(root, encoding='utf8').decode('utf8')) #If the request is successful, this line parses the XML content of the response and creates an ElementTree object
         
         # Define the parameters to extract
         parameter_names = [

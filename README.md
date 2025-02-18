@@ -46,7 +46,8 @@ Run the Flask app :
 Access the JSON response by navigating to : 
 * http://127.0.0.1:5000/extract_parameters 
 
-in your web browser or using a tool like curl or Postman.
+in your web browser or using a tool like curl or Postman. 
+(The part 1 is not properly yet working, the app is working the parameters are still null)
 
 ### PART 2
 

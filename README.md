@@ -41,3 +41,8 @@ Access the JSON response by navigating to :
 
 in your web browser or using a tool like curl or Postman.
 
+WARNING : 
+If you have the ERROR SSLError, install : 
+> pip install pip-system-certs 
+
+from this source : https://stackoverflow.com/questions/77442172/ssl-certificate-verify-failed-certificate-verify-failed-unable-to-get-local-is

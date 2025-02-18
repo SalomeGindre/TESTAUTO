@@ -28,7 +28,7 @@ It's recommended to create a virtual environment to manage dependencies.
 
 ## Exercice 1
 
-This project provides a Python script to extract specific parameters from an XML response obtained from the EUMETSAT API and serve the extracted data as a JSON response via a Flask web server.
+This exercice provides a Python script to extract specific parameters from an XML response obtained from the EUMETSAT API and serve the extracted data as a JSON response via a Flask web server.
 
 **Running the Script**
 

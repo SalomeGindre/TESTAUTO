@@ -1,0 +1,2 @@
+olda-ingestion-gateway-normal-0.log, olda-ingestion-processing-normal-0.log,
+olda-storage-manager-normal-65b44774cc-szgsn.log, olda-ingestion-housekeeping-normal-57cf8dd646-kh824.log

@@ -85,3 +85,7 @@ The Python script performs the following actions:
 * Filters the products to include only those starting with "ASCA".
 * Writes the product names and links to a CSV file.
 
+## Exercice  3
+
+The goal of this exercice is to track the events that each product went through in a series of backend services after being sent via HTTP POST. Each product is assigned a unique identifier by the first service, and this identifier is used by subsequent services to log their actions.
+

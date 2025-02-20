@@ -70,3 +70,18 @@ Access the JSON response by navigating to :
 * http://127.0.0.1:5000/extract_parameters2 
 
 in your web browser or using a tool like curl or Postman.
+
+## Exercice 2
+
+This exercice involves programmatically retrieving and processing satellite product data from the EUMETSAT data repository. The goal is to count the number of products available on a specific date and extract their identifiers and details, then save this information to a CSV file.
+
+To run the script and get the CSV file, write in your terminal: 
+> python product.py
+
+The Python script performs the following actions:
+
+* Sends a GET request to the specified URL.
+* Parses the HTML content to find all product hyperlinks.
+* Filters the products to include only those starting with "ASCA".
+* Writes the product names and links to a CSV file.
+

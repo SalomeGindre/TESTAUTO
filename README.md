@@ -6,6 +6,7 @@
 - Request library
 - Certifi library
 - Flask
+- BeautifulSoup
 
 WARNING : 
 If you have the ERROR SSLError, install : 
